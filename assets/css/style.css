@@ -1,0 +1,71 @@
+body {
+	background-image: url("../images/background.jpeg");
+	background-attachment: local;
+	background-size: cover;
+	font-family: 'American Typewriter', serif;
+}
+
+.jumbotron {
+	background-color: transparent;
+
+}
+
+
+h1 {
+	font-family: 'American Typewriter', serif;
+	text-transform: uppercase;
+	background-color: yellow;
+	font-size: 50px;
+}
+
+.instructions {
+	background-color: rgba(0,102,0,.7);
+	color: white;
+	padding: 10px;
+}
+
+
+#randomNumber {
+	background-color: rgba(255,128,0,.7);
+	color: white;
+	padding: 35px 0 35px 0;
+	text-align: center;
+
+}
+
+#crystals {
+	width: 100%;
+}
+
+#crystals img {
+	height: 100px;
+	width: 100px;
+	float: left;
+	margin: 15px;
+	background-color: rgba(0,102,0,.7);
+	padding: 5px;
+}
+
+
+#number {
+	padding: 10px;
+	margin: 10px;
+	margin-left: 0;
+}
+
+.aside {
+	background-color: rgba(255,255,0,.7);
+	margin: 10px;
+	padding: 10px;
+	float: left;
+}
+
+.score-div {
+	background-color: rgba(255,255,0,.7);
+	padding: 35px 0 35px 0;
+	width: 25%;
+}
+
+.score-div p {
+	padding-left: 5px;
+}

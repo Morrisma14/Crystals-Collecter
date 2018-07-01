@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Crystals Collector</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="https://bootstrapdocs.com/v3.3.6/docs/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body>
+	<div class ="container">
+		<div class ="jumbotron">
+			<h1>CrystalsCollector!</h1>
+			<div class ="instructions">
+				<p>You Will be given a random number at the start of the game.</p>
+				<p>There are four crystals below. By clicking on a crystal you will add a specific number of points to your total score.</p> 
+				<p>Win the game by matching your total score to the random number! If your total score goes over the amount of the random number, you lose.</p>
+				<p>You must figure out the value of each crystal by clicking on it.</p>
+				<p>Each time the game starts, the valve of the crystals will reset.</p> 
+			</div>
+		<div class="row">
+			<div class="col-md-3" id="number">
+				<p id ="randomNumber"></p>
+			</div>
+			<div class="aside col-md-6">
+	    		<p id="message"></p>
+				<p>Wins: <span id="winsCounter"></span></p>
+				<p>Losses: <span id="lossCounter"></span></p>
+			</div>
+		</div>
+		<div class="row" id="crystals">
+			<div id="blue"><img src="assets/images/blue.png"></div>
+			<div id="orange"><img src="assets/images/orange.png"></div>
+			<div id="red"><img src="assets/images/red.png"></div>
+			<div id="purple"><img src="assets/images/purple.jpeg"></div>
+		</div>
+		<div class="score-div">
+				<p>Your total score is</p>
+				<p id="scoreCounter">0</p>
+		</div>
+		</div>
+	</div>
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.10.0.min.js"></script>
+	<script type="text/javascript" src="assets/javascript/game.js"></script>
+</body>
+</html>
